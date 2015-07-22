@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Shortcut>fact</Shortcut>
+      <Title>Fact</Title>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="false">
+          <Default>Fact</Default>
+          <Function>SimpleTypeName(global::Xunit.FactAttribute)</Function>
+          <ID>Fact</ID>
+        </Literal>
+        <Literal Editable="true">
+          <Default>MyFact</Default>
+          <ID>MyFact</ID>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp"><![CDATA[[$Fact$]
+public void $MyFact$()
+{
+$end$
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
